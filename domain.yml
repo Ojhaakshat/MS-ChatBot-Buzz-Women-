@@ -8,10 +8,26 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - show_interest
+  - show_interest_farming
+  - resources_positive
+  - resources_negative
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Welcome to Buzz Women chatbot. How can I help?"
+
+  utter_interest:
+  - text: "What are your interests?"
+
+  utter_farming:
+  - text: "Do you have any resources for farming?"
+
+  utter_resources_positive:
+  - text: "Great! You can go ahead.."
+
+  utter_resources_negative:
+  - text: "I suggest you borrowing money. These can be some sources => Friends / Family / Banks / Money Lenders"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"

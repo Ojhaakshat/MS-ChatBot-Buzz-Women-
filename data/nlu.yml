@@ -38,6 +38,8 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - Okay
+    - I can try it
 
 - intent: deny
   examples: |
@@ -89,3 +91,31 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: show_interest
+  examples: |
+    - I am interested in earning money
+    - I am interested in starting my business
+    - I want to be financially independent
+    - I want to start a business
+    - I want to help my family financially
+    - I need some assistance in starting my business
+
+- intent: show_interest_farming
+  examples: |
+    - I want to start something farming related
+    - I want to do farming
+    - farming
+
+- intent: resources_positive
+  examples: |
+    - I have capital
+    - I have land
+    - I have resources
+    - I have cattle
+
+- intent: resources_negative
+  examples: |
+    - I don't have money
+    - I don't have land
+    - I don't have resources

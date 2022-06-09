@@ -28,3 +28,34 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: farming positive
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: show_interest
+  - action: utter_interest
+  - intent: show_interest_farming
+  - action: utter_farming
+  - intent: resources_positive
+  - action: utter_resources_positive
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: farming negative
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: show_interest
+  - action: utter_interest
+  - intent: show_interest_farming
+  - action: utter_farming
+  - intent: resources_negative
+  - action: utter_resources_negative
+  - intent: affirm
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_goodbye
+
+
