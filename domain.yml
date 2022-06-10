@@ -10,40 +10,93 @@ intents:
   - bot_challenge
   - show_interest
   - show_interest_farming
+  - show_interest_clothing
+  - show_interest_food
   - resources_positive
   - resources_negative
+  - enhance_skills
 
 responses:
   utter_greet:
-  - text: "Welcome to Buzz Women chatbot. How can I help?"
+    - text: "Welcome to Buzz Women Counselling chatbot. I would help you to become financially independent. How can I help?"
+      buttons:
+        - title: "I have a startup idea, and I want a course of action."
+          payload: "/mood_great"
+        - title: "I have no business idea, and I want to develop skills and want some ideas"
+          payload: "/mood_sad"
+        - title: "I already have my own business. I want to enhance my existing skills."
+          payload: "/enhance_skills"
 
   utter_interest:
-  - text: "What are your interests?"
+    - text: "What are your interests?"
 
   utter_farming:
-  - text: "Do you have any resources for farming?"
+    - text: "What resources do you have related to farming"
+      buttons:
+        - title: "I have capital and land"
+          payload: "/resources_positive"
+        - title: "I have cattle"
+          payload: "/resources_positive"
+        - title: "I do not have any resource"
+          payload: "/resources_negative"
+
+  utter_clothing:
+    - text: "What resources do you have related to clothing"
+      buttons:
+        - title: "I know how to stitch clothes and knit sweaters"
+          payload: "/resources_positive"
+        - title: "I have an exisiting business related to clothing - like a cloth shop"
+          payload: "/resources_positive"
+        - title: "I do not have any resource"
+          payload: "/resources_negative"
+
+  utter_food:
+    - text: "What resources do you have related to food"
+      buttons:
+        - title: "I have a small store related to either fruits or vegetables or both"
+          payload: "/resources_positive"
+        - title: "I have a tiffin service"
+          payload: "/resources_positive"
+        - title: "I do not have any resource"
+          payload: "/resources_negative"
 
   utter_resources_positive:
-  - text: "Great! You can go ahead.."
+    - text: "Great! You can go ahead.."
+
+  utter_resources_positive_skill:
+    - text: "Great! To expand your business, you can look into schemes provided by the government (Insert schemes here)"
 
   utter_resources_negative:
-  - text: "I suggest you borrowing money. These can be some sources => Friends / Family / Banks / Money Lenders"
+    - text: "I suggest you borrowing money. These can be some sources => Friends / Family / Banks / Money Lenders"
+
+  utter_resources_negative_skill:
+    - text: "Umm! Sorry to hear that you do not have enough resources! I sugges you borrowing money. Some sources can be Friends Family and Banks :DDD"
+
+  utter_enhance_skills:
+    - text: "In which category does your existing business falls?"
+      buttons:
+        - title: "I have a farming related business."
+          payload: "/show_interest_farming"
+        - title: "I have a business in the textile industry."
+          payload: "/show_interest_clothing"
+        - title: "I work in the food sector."
+          payload: "/show_interest_food"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60
