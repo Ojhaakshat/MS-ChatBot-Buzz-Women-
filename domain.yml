@@ -15,6 +15,10 @@ intents:
   - resources_positive
   - resources_negative
   - enhance_skills
+  - need_business_ideas
+  - farming_range1
+  - farming_range2
+  - farming_range3
 
 responses:
   utter_greet:
@@ -22,8 +26,8 @@ responses:
       buttons:
         - title: "I have a startup idea, and I want a course of action."
           payload: "/mood_great"
-        - title: "I have no business idea, and I want to develop skills and want some ideas"
-          payload: "/mood_sad"
+        - title: "I have no business idea, and I want to know about some ideas"
+          payload: "/need_business_ideas"
         - title: "I already have my own business. I want to enhance my existing skills."
           payload: "/enhance_skills"
 
@@ -82,6 +86,96 @@ responses:
         - title: "I work in the food sector."
           payload: "/show_interest_food"
 
+  utter_need_business_ideas:
+  - text: "Please select your field of interest: Farming, Clothing, Food"
+    buttons:
+      - title: "Farming Related Businesses"
+        payload: "/show_interest_farming"
+      - title: "Clothing Related Businesses"
+        payload: "/show_interest_clothing"
+      - title: "Food Related Businesses"
+        payload: "/show_interest_food"
+
+  utter_sugg_farming:
+  - text: "Do you have land or plot for farming?"
+    buttons:
+      - title: "I have land"
+        payload: "/affirm"
+      - title: "I don't have land"
+        payload: "/deny"
+
+  utter_farming_capital:
+  - text: "How much money can you invest in some farming business?"
+    buttons:
+      - title: "Less than Rs. 25000"
+        payload: "/farming_range1"
+      - title: "Between Rs. 25000 and Rs. 50000"
+        payload: "/farming_range2"
+      - title: "More than Rs. 50000"
+        payload: "/farming_range3"
+
+  utter_farming_rang1:
+  - text: "Great! Here are some business ideas:\n \t1. Goat Farming"
+
+  utter_farming_rang2:
+  - text: "Great! Here are some business ideas:\n \t1. Animal Husbandry\n \t2. Poultry"
+
+  utter_farming_rang3:
+  - text: "Great! Here are some business ideas:\n \t1. Crop Farming depending on your region"
+
+  utter_farming_cattle:
+  - text: "Would you be able to invest in buying cattle like goats or cows?"
+    buttons:
+      - text: "Yes, I can."
+        payload: "/affirm"
+      - text: "No, I can't."
+        payload: "/deny"
+
+  utter_farming_catt_yes:
+  - text: "Great! Here are some business ideas:\n \t1. You can sell dairy products such as milk, paneer, yoghurt"
+
+  utter_idea_not_suggest:
+  - text: "Sorry. The selected field is not suggested.\nPlease look into some other fields"
+
+  utter_sugg_clothing:
+  - text: "Do you have skills related to stitching and knowledge of fabrics and designs?"
+    buttons:
+      - title: "I have the required skills."
+        payload: "/affirm"
+      - title: "I don't have the required skills."
+        payload: "/deny"
+
+  utter_skills_no:
+  - text: "Would you be able to learn the required skills for clothing businesses?"
+    buttons:
+      - title: "Yes, I will."
+        payload: "/affirm"
+      - title: "I am not sure."
+        payload: "/deny"
+
+  utter_skills_learn_yes:
+  - text: "Great! You can learn these skills with help of your family/friends or online."
+
+  utter_shop:
+  - text: "Do you have money to invest in a shop?"
+    buttons:
+      - title: "I can invest in a shop."
+        payload: "/affirm"
+      - title: "I won't be able to invest in a shop."
+        payload: "/deny"
+
+  utter_clothing_shop_no:
+  - text: "Great! Here are some business ideas:\n \t1. You can sell clothes online."
+
+  utter_clothing_shop_yes:
+  - text: "Great! Here are some business ideas:\n \t1. Start a garments shop.\n \t2. Start a saree shop."
+
+  utter_food_shop_no:
+  - text: "Great! Here are some business ideas:\n \t1. Start papad business from home.\n \t2. Start pickle business from home."
+
+  utter_food_shop_yes:
+  - text: "Great! Here are some business ideas:\n \t1. Start a juice and coconut shop.\n \t2. Start a tea shop.\n \t3. Start a Kirana shop or Petty shop."
+
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
       image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -93,7 +187,7 @@ responses:
     - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Bye"
+    - text: "Thanks for chatting with us. Have a great day!"
 
   utter_iamabot:
     - text: "I am a bot, powered by Rasa."
