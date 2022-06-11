@@ -103,6 +103,15 @@ nlu:
       - I want to help my family financially
       - I need some assistance in starting my business
 
+  - intent: show_interest_start_up
+    examples: |
+      - I am interested in start-up
+      - I am interested in starting my business
+      - I want to earn money by starting a business
+      - I want to start a business
+      - I have working experience in business
+      - I need some assistance in starting my business
+
   - intent: show_interest_farming
     examples: |
       - I want to start something farming related

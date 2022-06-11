@@ -33,6 +33,14 @@ responses:
 
   utter_interest:
     - text: "What are your interests?"
+  utter_start_up:
+    - text: "do you any idea of start-up?"
+     buttons:
+      - title: "I have "
+        payload: "/affirm"
+      - title: "I don't have"
+        payload: "/deny"
+
 
   utter_farming:
     - text: "What resources do you have related to farming"
