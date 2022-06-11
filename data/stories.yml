@@ -42,7 +42,7 @@ stories:
       - intent: affirm
       - action: utter_goodbye
 
-    - story: start up negative
+  - story: start up negative
     steps:
       - intent: greet
       - action: utter_greet
