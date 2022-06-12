@@ -20,6 +20,7 @@ intents:
   - farming_range2
   - farming_range3
   - show_interest_start_up
+  - restart
 
 responses:
   utter_greet:
@@ -222,10 +223,13 @@ responses:
     - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Thanks for chatting with us. Have a great day!"
+    - text: "Thanks for chatting with us. Have a great day!\nEnter \"Chat Again\" to restart conversation."
 
   utter_iamabot:
     - text: "I am a bot, powered by Rasa."
+
+actions:
+  - action_restart
 
 session_config:
   session_expiration_time: 60

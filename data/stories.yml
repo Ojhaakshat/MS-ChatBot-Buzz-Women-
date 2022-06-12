@@ -381,3 +381,8 @@ stories:
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
+
+  - story: restart
+    steps:
+      - intent: restart
+      - action: action_restart

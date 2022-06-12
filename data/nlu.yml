@@ -192,3 +192,10 @@ nlu:
       - > Rs. 50000
       - More than Rs. 50000
       - I can invest more than Rs. 50000
+
+  - intent: restart
+    examples: |
+      - chat again
+      - restart conversation
+      - restart
+      - start again
