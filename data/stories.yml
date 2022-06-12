@@ -81,7 +81,6 @@ stories:
       - action: utter_farming
       - intent: resources_negative
       - action: utter_resources_negative
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -96,7 +95,6 @@ stories:
       - action: utter_farming
       - intent: resources_positive
       - action: utter_resources_positive_skill
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -111,7 +109,6 @@ stories:
       - action: utter_farming
       - intent: resources_negative
       - action: utter_resources_negative_skill
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -126,7 +123,6 @@ stories:
       - action: utter_clothing
       - intent: resources_positive
       - action: utter_resources_positive_skill
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -141,7 +137,6 @@ stories:
       - action: utter_clothing
       - intent: resources_negative
       - action: utter_resources_negative_skill
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -156,7 +151,6 @@ stories:
       - action: utter_food
       - intent: resources_positive
       - action: utter_resources_positive_skill
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -171,7 +165,6 @@ stories:
       - action: utter_food
       - intent: resources_negative
       - action: utter_resources_negative_skill
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -188,7 +181,6 @@ stories:
       - action: utter_farming_capital
       - intent: farming_range1
       - action: utter_farming_rang1
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -205,7 +197,6 @@ stories:
       - action: utter_farming_capital
       - intent: farming_range2
       - action: utter_farming_rang2
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -222,7 +213,6 @@ stories:
       - action: utter_farming_capital
       - intent: farming_range3
       - action: utter_farming_rang3
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -239,7 +229,6 @@ stories:
       - action: utter_farming_cattle
       - intent: affirm
       - action: utter_farming_catt_yes
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -256,24 +245,6 @@ stories:
       - action: utter_farming_cattle
       - intent: deny
       - action: utter_idea_not_suggest
-      - intent: affirm
-      - action: utter_did_that_help
-      - intent: affirm
-      - action: utter_goodbye
-
-  - story: clothing no skills no learn
-    steps:
-      - intent: greet
-      - action: utter_greet
-      - intent: need_business_ideas
-      - action: utter_need_business_ideas
-      - intent: show_interest_clothing
-      - action: utter_sugg_clothing
-      - intent: deny
-      - action: utter_skills_no
-      - intent: deny
-      - action: utter_idea_not_suggest
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -287,13 +258,10 @@ stories:
       - intent: show_interest_clothing
       - action: utter_sugg_clothing
       - intent: deny
-      - action: utter_skills_no
-      - intent: affirm
       - action: utter_skills_learn_yes
       - action: utter_shop
       - intent: deny
       - action: utter_clothing_shop_no
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -307,13 +275,10 @@ stories:
       - intent: show_interest_clothing
       - action: utter_sugg_clothing
       - intent: deny
-      - action: utter_skills_no
-      - intent: affirm
       - action: utter_skills_learn_yes
       - action: utter_shop
       - intent: affirm
       - action: utter_clothing_shop_yes
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -330,7 +295,6 @@ stories:
       - action: utter_shop
       - intent: affirm
       - action: utter_clothing_shop_yes
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -347,7 +311,6 @@ stories:
       - action: utter_shop
       - intent: deny
       - action: utter_clothing_shop_no
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -362,7 +325,6 @@ stories:
       - action: utter_shop
       - intent: deny
       - action: utter_food_shop_no
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
@@ -377,7 +339,6 @@ stories:
       - action: utter_shop
       - intent: affirm
       - action: utter_food_shop_yes
-      - intent: affirm
       - action: utter_did_that_help
       - intent: affirm
       - action: utter_goodbye
