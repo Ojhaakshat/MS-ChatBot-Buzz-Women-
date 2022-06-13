@@ -46,9 +46,8 @@ responses:
           payload: "/deny"
       button_type: "vertical"
 
-
   utter_farming:
-    - text: "What resources do you have related to farming"
+    - text: "What resources do you have related to farming?"
       buttons:
         - title: "I have capital and land"
           payload: "/resources_positive"
@@ -58,54 +57,50 @@ responses:
           payload: "/resources_negative"
       button_type: "vertical"
 
-
   utter_clothing:
-    - text: "What resources do you have related to clothing"
+    - text: "What resources or skills do you have for a clothing business?"
       buttons:
-        - title: "I know how to stitch clothes and knit sweaters"
+        - title: "Can stitch clothes and knit sweaters"
           payload: "/resources_positive"
-        - title: "I have an exisiting business related to clothing - like a cloth shop"
+        - title: "Already have a clothes stitching shop"
           payload: "/resources_positive"
         - title: "I do not have any resource"
           payload: "/resources_negative"
       button_type: "vertical"
-
 
   utter_food:
-    - text: "What resources do you have related to food"
+    - text: "What resources do you have related to a food business?"
       buttons:
-        - title: "I have a small store related to either fruits or vegetables or both"
+        - title: "I run a small grocery store"
           payload: "/resources_positive"
-        - title: "I have a tiffin service"
+        - title: "I offer Tiffin service"
           payload: "/resources_positive"
         - title: "I do not have any resource"
           payload: "/resources_negative"
       button_type: "vertical"
-
 
   utter_resources_positive:
     - text: "Great! You can go ahead.."
 
   utter_resources_positive_skill:
-    - text: "Great! To expand your business, you can look into schemes provided by the government (Insert schemes here)"
+    - text: "Great! I am providing you with the following articles! Do read them!\n\t1. Expand Already Existing Business [<Guide>](https://www.entrepreneur.com/article/306049)\n\t2. Help Your Business Grow [<Guide>](https://www.fundera.com/blog/10-indicators-time-to-expand-your-business)\n\tThe government also offers some schemes for the growth of small businesses. They are:\n\t1. Pradhan Mantri Mudra Yojana\n\t2. Credit Guarantee Trust Fund for Micro & Small Enterprises\n\t3. Financial Support to MSMEs in ZED Certification Scheme\n\t4. Credit Linked Capital Subsidy for Technology Upgradation\n\t5. Design Clinic for Design Expertise to MSMEs\n\tTo explore further, visit this link - Grow Small Businesses [<Guide>](https://www.msmex.in/learn/government-schemes-for-startups-and-msmes-in-india/)"
 
   utter_resources_negative:
     - text: "I suggest you borrowing money. These can be some sources => Friends / Family / Banks / Money Lenders"
 
   utter_resources_negative_skill:
-    - text: "Umm! Sorry to hear that you do not have enough resources! I sugges you borrowing money. Some sources can be Friends Family and Banks :DDD"
+    - text: "Umm! Sorry to hear that you do not have enough resources! I suggest you borrowing money. Some sources can be friends, family and banks :DDD"
 
   utter_enhance_skills:
     - text: "In which category does your existing business falls?"
       buttons:
-        - title: "I have a farming related business."
+        - title: "Farming"
           payload: "/show_interest_farming"
-        - title: "I have a business in the textile industry."
+        - title: "Clothing / Textile"
           payload: "/show_interest_clothing"
-        - title: "I work in the food sector."
+        - title: "Food sector"
           payload: "/show_interest_food"
       button_type: "vertical"
-
 
   utter_need_business_ideas:
     - text: "Please select your field of interest:"
@@ -118,7 +113,6 @@ responses:
           payload: "/show_interest_food"
       button_type: "vertical"
 
-
   utter_sugg_farming:
     - text: "Do you have land or plot for farming?"
       buttons:
@@ -127,7 +121,6 @@ responses:
         - title: "I don't have land"
           payload: "/deny"
       button_type: "vertical"
-
 
   utter_farming_capital:
     - text: "How much money can you invest in any farming business?"
@@ -139,7 +132,6 @@ responses:
         - title: "More than Rs. 50000"
           payload: "/farming_range3"
       button_type: "vertical"
-
 
   utter_farming_rang1:
     - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. Goat Farming [<Guide>](https://www.youtube.com/watch?v=yCc0uXeMvC4)"
@@ -158,7 +150,6 @@ responses:
         - text: "No, I can't."
           payload: "/deny"
       button_type: "vertical"
-
 
   utter_farming_catt_yes:
     - text: "Great! Here are some business ideas:\n\t1. You can sell dairy products such as milk, paneer, yoghurt."
@@ -186,7 +177,6 @@ responses:
         - title: "I can't invest in a shop."
           payload: "/deny"
       button_type: "vertical"
-
 
   utter_clothing_shop_no:
     - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. You can sell clothes online. [<Guide>](https://www.youtube.com/watch?v=GbXSHk2J6-c)"
