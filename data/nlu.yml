@@ -3,75 +3,35 @@ version: '3.1'
 nlu:
   - intent: greet
     examples: |
-      - hey
-      - hello
-      - hi
-      - hello there
-      - good morning
-      - good evening
-      - moin
-      - hey there
-      - let's go
-      - hey dude
-      - goodmorning
-      - goodevening
-      - good afternoon
+      - ಶುಭೋದಯ
+      - ಶುಭ ಸಂಜೆ
+      - ಶುಭ ಅಪರಾಹ್ನ
+      - ನಮಸ್ತೆ
+      - ಹಾಯ್ ಅಲ್ಲಿ
+      - ನಮಸ್ಕಾರ
 
   - intent: goodbye
     examples: |
-      - cu
-      - good by
-      - cee you later
-      - good night
-      - bye
-      - goodbye
-      - have a nice day
-      - see you around
-      - bye bye
-      - see you later
+      - ವಿದಾಯ
+      - ಮತ್ತೆ ಭೇಟಿಯಾಗೋಣ
 
   - intent: affirm
     examples: |
-      - yes
-      - y
-      - indeed
-      - of course
-      - that sounds good
-      - correct
-      - Okay
-      - I can try it
-      - thanks
+      - ಸರಿಯಾದ
+      - ಖಂಡಿತವಾಗಿ
+      - ಸರಿ
+      - ನಾನು ಅದನ್ನು ಪ್ರಯತ್ನಿಸಬಹುದು
+      - ಧನ್ಯವಾದಗಳು
       - yea
+      - ಹೌದು
+      - ಧನ್ಯವಾದಗಳು
+      - ಅದು ಚೆನ್ನಾಗಿದೆ
 
   - intent: deny
     examples: |
-      - no
-      - n
-      - never
-      - I don't think so
-      - don't like that
-      - no way
-      - not really
-
-  - intent: yes_no
-    examples: |
-      - yes
-      - y
-      - indeed
-      - of course
-      - that sounds good
-      - correct
-      - Okay
-      - I can try it
-      - thanks
-      - yea
-      - no
-      - n
-      - never
-      - I don't think so
-      - don't like that
-      - no way
-      - not really
+      - ಅದು ಇಷ್ಟವಿಲ್ಲ
+      - ಇಲ್ಲ
+      - ಎಂದಿಗೂ
 
   - intent: mood_great
     examples: |
@@ -116,98 +76,91 @@ nlu:
 
   - intent: show_interest
     examples: |
-      - I am interested in earning money
-      - I am interested in starting my business
-      - I want to be financially independent
-      - I want to start a business
-      - I want to help my family financially
-      - I need some assistance in starting my business
+      - ನನಗೆ ಹಣ ಗಳಿಸುವುದರಲ್ಲಿ ಆಸಕ್ತಿ ಇದೆ
+      - ನನ್ನ ವ್ಯವಹಾರವನ್ನು ಪ್ರಾರಂಭಿಸಲು ನಾನು ಆಸಕ್ತಿ ಹೊಂದಿದ್ದೇನೆ
+      - ಆರ್ಥಿಕವಾಗಿ ಸ್ವತಂತ್ರ
+      - ಸಹಾಯ
 
   - intent: show_interest_farming
     examples: |
-      - I want to start something farming related
-      - I want to do farming
-      - farming
-      - I have an exisiting business related to farming
-      - I have a farming related business
+      - ನನಗೆ ಕೃಷಿ ಮಾಡಬೇಕೆಂಬ ಆಸೆ ಇದೆ
+      - ಕೃಷಿ
+      - ನನಗೆ ಕೃಷಿ ಸಂಬಂಧಿತ ವ್ಯಾಪಾರವಿದೆ
+      - ನಾನು ಒಬ್ಬ ರೈತ
 
   - intent: show_interest_clothing
     examples: |
-      - I want to start something related to clothes
-      - I know how to stitch clothes
-      - Clothing
-      - Textile industry
-      - I have the basic skill of stitchig cloths
-      - I can knit sweaters
-      - I have an exisiting business related to clothing
-      - I have a cloth shop
+      - ಉಡುಪು
+      - ಜವಳಿ ಉದ್ಯಮ
+      - ನನಗೆ ಹೊಲಿಗೆ ಹಾಕುವುದು ಗೊತ್ತು
+      - ಹೆಣಿಗೆ ಮಾಡುವುದು ನನಗೆ ಗೊತ್ತು
+      - ನಾನು ಬಟ್ಟೆಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ವ್ಯಾಪಾರವನ್ನು ಹೊಂದಿದ್ದೇನೆ
+      - ನನ್ನದು ಬಟ್ಟೆ ಅಂಗಡಿ ಇದೆ
 
   - intent: show_interest_food
     examples: |
-      - I want to start a food store
-      - I want to open a vegetable shop
-      - vegetable store
-      - food store
-      - I have a small vegetable shop
-      - I have a small canteen
-      - I have a tiffin service
-      - I sell fruits
-      - I sell fast food
+      - ನಾನು ಆಹಾರ ಮಳಿಗೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಬಯಸುತ್ತೇನೆ
+      - ನಾನು ತರಕಾರಿ ಅಂಗಡಿ ತೆರೆಯಲು ಬಯಸುತ್ತೇನೆ
+      - ಆಹಾರ ಅಂಗಡಿ
+      - ನನ್ನದು ಚಿಕ್ಕ ತರಕಾರಿ ಅಂಗಡಿ ಇದೆ
+      - ನನ್ನದು ಚಿಕ್ಕ ಕ್ಯಾಂಟೀನ್ ಇದೆ
+      - ನನ್ನ ಬಳಿ ಟಿಫಿನ್ ಸೇವೆ ಇದೆ
+      - ನಾನು ಹಣ್ಣುಗಳನ್ನು ಮಾರುತ್ತೇನೆ
+      - ನಾನು ತ್ವರಿತ ಆಹಾರವನ್ನು ಮಾರಾಟ ಮಾಡುತ್ತೇನೆ
 
   - intent: resources_positive
     examples: |
-      - I have capital
-      - I have land
-      - I have resources
-      - I have cattle
-      - I have money to invest
+      - ನನ್ನ ಬಳಿ ಜಮೀನಿದೆ
+      - ನನ್ನ ಬಳಿ ಸಂಪನ್ಮೂಲಗಳಿವೆ
+      - ನನ್ನ ಬಳಿ ಜಾನುವಾರುಗಳಿವೆ
+      - ಹೂಡಿಕೆ ಮಾಡಲು ನನ್ನ ಬಳಿ ಹಣವಿದೆ
 
   - intent: resources_negative
     examples: |
-      - I don't have money
-      - I don't have land
-      - I don't have resources
+      - ನನ್ನ ಬಳಿ ಹಣವಿಲ್ಲ
+      - ನನ್ನ ಬಳಿ ಜಮೀನಿಲ್ಲ
+      - ನನ್ನ ಬಳಿ ಸಂಪನ್ಮೂಲಗಳಿಲ್ಲ
 
   - intent: enhance_skills
     examples: |
-      - I already have my own business
-      - I want to enhance my existing skills
-      - My business is facing losses
-      - I want to develop my skills
-      - I want to upskill my business
-      - I want to learn new skills
-      - Suggest some skills
+      - ನಾನು ಈಗಾಗಲೇ ನನ್ನ ಸ್ವಂತ ವ್ಯವಹಾರವನ್ನು ಹೊಂದಿದ್ದೇನೆ
+      - ನನ್ನ ವ್ಯಾಪಾರ ನಷ್ಟ ವನ್ನು ಎದುರಿಸುತ್ತಿದೆ
+      - ನನ್ನ ಕೌಶಲ್ಯಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲು ನಾನು ಬಯಸುತ್ತೇನೆ
+      - ನನ್ನ ವ್ಯಾಪಾರವನ್ನು ಹೆಚ್ಚಿಸಲು ನಾನು ಬಯಸುತ್ತೇನೆ
+      - ನಾನು ಹೊಸ ಕೌಶಲ್ಯಗಳನ್ನು ಕಲಿಯಲು ಬಯಸುತ್ತೇನೆ
+      - ಕೆಲವು ಕೌಶಲ್ಯಗಳನ್ನು ಸೂಚಿಸಿ
 
   - intent: need_business_ideas
     examples: |
-      - I need business ideas.
-      - I need business suggestions
-      - I need some ideas to start a business
-      - I need some suggestions to start a business
+      - ನನಗೆ ವ್ಯವಹಾರ ಕಲ್ಪನೆಗಳು ಬೇಕು
+      - ಹೊಸದು ಬೇಕು
+      - ನನಗೆ ವ್ಯಾಪಾರ ಸಲಹೆಗಳ ಅಗತ್ಯವಿದೆ
+      - ವ್ಯವಹಾರವನ್ನು ಪ್ರಾರಂಭಿಸಲು ನನಗೆ ಕೆಲವು ಆಲೋಚನೆಗಳು ಬೇಕಾಗುತ್ತವೆ
 
   - intent: farming_range1
     examples: |
-      - < Rs. 25000
-      - Rs. 0 - 25000
-      - Less than Rs. 25000
-      - I can invest Rs. 25000
+      - < 25000
+      - 0 - 25000
+      - 25000 ಕ್ಕಿಂತ ಕಡಿಮೆ
+      - ನಾನು 25000 ಹೂಡಿಕೆ ಮಾಡಬಹುದು
+      - ನಾನು 25000 ವರೆಗೆ ಹೂಡಿಕೆ ಮಾಡಬಹುದು
+      - 25000 ವರೆಗೆ
 
   - intent: farming_range2
     examples: |
-      - < Rs. 50000
-      - Rs. 25000 - 50000
-      - Between Rs. 25000 and Rs. 50000
-      - I can invest between Rs. 25000 and Rs. 50000
+      - < 50000
+      - 25000 - 50000
+      - Between 25000 and 50000
+      - ನಾನು 25000 ಮತ್ತು 50000 ನಡುವೆ ಹೂಡಿಕೆ ಮಾಡಬಹುದು
 
   - intent: farming_range3
     examples: |
-      - > Rs. 50000
-      - More than Rs. 50000
-      - I can invest more than Rs. 50000
+      - > 50000
+      - 50000 ಕ್ಕಿಂತ ಹೆಚ್ಚು
+      - ನಾನು 50000 ಕ್ಕಿಂತ ಹೆಚ್ಚು ಹೂಡಿಕೆ ಮಾಡಬಹುದು
 
   - intent: restart
     examples: |
-      - chat again
-      - restart conversation
-      - restart
-      - start again
+      - ಮತ್ತೆ ಚಾಟ್
+      - ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಿ
+      - ಪುನರಾರಂಭದ
