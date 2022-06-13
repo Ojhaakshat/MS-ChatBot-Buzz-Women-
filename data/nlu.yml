@@ -1,4 +1,4 @@
-version: "3.1"
+version: '3.1'
 
 nlu:
   - intent: greet
@@ -103,46 +103,6 @@ nlu:
       - I want to help my family financially
       - I need some assistance in starting my business
 
-  - intent: show_start_up
-    examples: |
-      - I am interested in start-up
-      - I am interested in starting my business
-      - I want to earn money by starting a business
-      - I want to start a business
-      - I have working experience in business
-      - I need some assistance in starting my business
-
-     - intent: show_start_up_idea
-    examples: |
-      - I want to start my business
-      - I want to open my start up
-      - start up
-
-     - intent: show_interest_wholesale
-    examples: |
-      - I want to sell fruit
-      - I want to do sell dairy products
-      - Selling vegetable
-      - I sell fruits
-      - I sell vegetables
-      - I sell diary products
-
-    - intent: show_interest_product
-    examples: |
-      - I want to open general store
-      - I want to open stationery shop
-      - start up of cloths
-      - cloth  business
-      - I have my own kirana store
-
-     - intent: show_interest_beautyproduct
-    examples: |
-      - I want to open beauty parlour
-      - I want to beauty product shop
-      - start up of grooming womens 
-      - beauty product business
-      - I have my own beauty parlour
-
   - intent: show_interest_farming
     examples: |
       - I want to start something farming related
@@ -181,7 +141,6 @@ nlu:
       - I have resources
       - I have cattle
       - I have money to invest
-      
 
   - intent: resources_negative
     examples: |
