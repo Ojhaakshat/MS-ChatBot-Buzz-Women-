@@ -46,6 +46,28 @@ responses:
           payload: "/deny"
       button_type: "vertical"
 
+   utter_start_up_idea:
+     - text: "Please select your field of interest in startup:"
+      buttons:
+        - title: "Fruit/Vegetable/dairy Related Businesses" 
+          payload: "/show_interest_wholesale"
+        - title: " kirana Related Businesses"
+          payload: "/show_interest_product"
+        - title: " beauty product Related Businesses"
+          payload: "/show_interest_beautyproduct"
+      button_type: "vertical"
+
+   utter_start_up_idea_resource:
+     - text: "What resources do you have related to startup:"
+      buttons:
+         - title: "I have capital"
+          payload: "/resources_positive"
+        - title: "I have cattle"
+          payload: "/resources_positive"
+        - title: "I do not have any resource"
+          payload: "/resources_negative"
+      button_type: "vertical"
+        
   utter_farming:
     - text: "What resources do you have related to farming?"
       buttons:
