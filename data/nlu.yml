@@ -53,6 +53,26 @@ nlu:
       - no way
       - not really
 
+  - intent: yes_no
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - Okay
+      - I can try it
+      - thanks
+      - yea
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
   - intent: mood_great
     examples: |
       - perfect

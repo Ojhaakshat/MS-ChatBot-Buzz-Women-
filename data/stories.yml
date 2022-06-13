@@ -39,7 +39,7 @@ stories:
       - intent: resources_positive
       - action: utter_resources_positive
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: farming negative
@@ -53,7 +53,7 @@ stories:
       - intent: resources_negative
       - action: utter_resources_negative
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: enhance skills farming resource positive
@@ -67,7 +67,7 @@ stories:
       - intent: resources_positive
       - action: utter_resources_positive_skill
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: enhance skills farming resource negative
@@ -81,7 +81,7 @@ stories:
       - intent: resources_negative
       - action: utter_resources_negative_skill
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: enhance skills clothing resource positive
@@ -95,7 +95,7 @@ stories:
       - intent: resources_positive
       - action: utter_resources_positive_skill
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: enhance skills clothing resource negative
@@ -109,7 +109,7 @@ stories:
       - intent: resources_negative
       - action: utter_resources_negative_skill
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: enhance skills food resource positive
@@ -123,7 +123,7 @@ stories:
       - intent: resources_positive
       - action: utter_resources_positive_skill
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: enhance skills food resource negative
@@ -137,7 +137,7 @@ stories:
       - intent: resources_negative
       - action: utter_resources_negative_skill
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: farming with land and 25k invest
@@ -153,7 +153,7 @@ stories:
       - intent: farming_range1
       - action: utter_farming_rang1
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: farming with land and 50k invest
@@ -169,7 +169,7 @@ stories:
       - intent: farming_range2
       - action: utter_farming_rang2
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: farming with land and >50k invest
@@ -185,7 +185,7 @@ stories:
       - intent: farming_range3
       - action: utter_farming_rang3
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: farming with no land and cattle
@@ -201,7 +201,7 @@ stories:
       - intent: affirm
       - action: utter_farming_catt_yes
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: farming with no land and no cattle
@@ -217,7 +217,7 @@ stories:
       - intent: deny
       - action: utter_idea_not_suggest
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: clothing no skills yes learn no shop
@@ -234,7 +234,7 @@ stories:
       - intent: deny
       - action: utter_clothing_shop_no
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: clothing no skills yes learn yes shop
@@ -251,7 +251,7 @@ stories:
       - intent: affirm
       - action: utter_clothing_shop_yes
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: clothing yes skills yes shop
@@ -267,7 +267,7 @@ stories:
       - intent: affirm
       - action: utter_clothing_shop_yes
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: clothing yes skills no shop
@@ -283,7 +283,7 @@ stories:
       - intent: deny
       - action: utter_clothing_shop_no
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: food shop yes
@@ -297,7 +297,7 @@ stories:
       - intent: deny
       - action: utter_food_shop_no
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: food shop no
@@ -311,7 +311,7 @@ stories:
       - intent: affirm
       - action: utter_food_shop_yes
       - action: utter_did_that_help
-      - intent: affirm
+      - intent: yes_no
       - action: utter_goodbye
 
   - story: restart

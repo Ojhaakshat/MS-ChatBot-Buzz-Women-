@@ -5,6 +5,7 @@ intents:
   - goodbye
   - affirm
   - deny
+  - yes_no
   - mood_great
   - mood_unhappy
   - bot_challenge
@@ -184,6 +185,11 @@ responses:
 
   utter_did_that_help:
     - text: 'Did that help you?'
+      buttons:
+        - title: 'Yes'
+          payload: '/yes_no'
+        - title: 'No'
+          payload: '/yes_no'
 
   utter_happy:
     - text: 'Great, carry on!'
