@@ -134,13 +134,13 @@ responses:
       button_type: "vertical"
 
   utter_farming_rang1:
-    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. Goat Farming [<Guide>](https://www.youtube.com/watch?v=yCc0uXeMvC4)"
+    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\n\t1. Goat Farming [<Guide>](https://www.youtube.com/watch?v=yCc0uXeMvC4)"
 
   utter_farming_rang2:
-    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. Animal Husbandry [<Guide>](https://www.youtube.com/watch?v=sQMLHIIjqZ8)\n\t2. Poultry [<Guide>](https://www.youtube.com/watch?v=Pp99RuwSDq4)"
+    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\n\t1. Animal Husbandry [<Guide>](https://www.youtube.com/watch?v=sQMLHIIjqZ8)\n\n\t2. Poultry [<Guide>](https://www.youtube.com/watch?v=Pp99RuwSDq4)"
 
   utter_farming_rang3:
-    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. Organic Farming [<Guide>](https://www.youtube.com/watch?v=wTd49InwoKE)"
+    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\n\t1. Organic Farming [<Guide>](https://www.youtube.com/watch?v=wTd49InwoKE)"
 
   utter_farming_cattle:
     - text: "Would you be able to invest in buying cattle like goats or cows?"
@@ -152,7 +152,7 @@ responses:
       button_type: "vertical"
 
   utter_farming_catt_yes:
-    - text: "Great! Here are some business ideas:\n\t1. You can sell dairy products such as milk, paneer, yoghurt."
+    - text: "Great! Here are some business ideas:\n\n\t1. You can sell dairy products such as milk, paneer, yoghurt."
 
   utter_idea_not_suggest:
     - text: "Sorry. The selected field is not suggested.\nPlease look into some other fields"
@@ -167,7 +167,7 @@ responses:
       button_type: "vertical"
 
   utter_skills_learn_yes:
-    - text: "Here are some Youtube tutorials to guide you:\n\t1. [Learn Stitching](https://www.youtube.com/playlist?list=PLPWR--xLa5dnRvCwcAuHsggXdaArSfsAK)\n\t2. [Learn fabric designing](https://www.youtube.com/watch?v=t4RB3CXtdQo)"
+    - text: "Here are some Youtube tutorials to guide you:\n\n\t1. [Learn Stitching](https://www.youtube.com/playlist?list=PLPWR--xLa5dnRvCwcAuHsggXdaArSfsAK)\n\n\t2. [Learn fabric designing](https://www.youtube.com/watch?v=t4RB3CXtdQo)"
 
   utter_shop:
     - text: "Do you have money to invest in a shop?"
@@ -179,16 +179,16 @@ responses:
       button_type: "vertical"
 
   utter_clothing_shop_no:
-    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. You can sell clothes online. [<Guide>](https://www.youtube.com/watch?v=GbXSHk2J6-c)"
+    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\n\t1. You can sell clothes online. [<Guide>](https://www.youtube.com/watch?v=GbXSHk2J6-c)"
 
   utter_clothing_shop_yes:
-    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. Start a garments shop. [<Guide>](https://www.youtube.com/watch?v=Y7IWSVhIX0Y)\n\t2. Start a saree shop. [<Guide>](https://www.youtube.com/watch?v=ZydoD6prUr0)"
+    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\n\t1. Start a garments shop. [<Guide>](https://www.youtube.com/watch?v=Y7IWSVhIX0Y)\n\n\t2. Start a saree shop. [<Guide>](https://www.youtube.com/watch?v=ZydoD6prUr0)"
 
   utter_food_shop_no:
-    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. Start papad business from home. [<Guide>](https://www.youtube.com/watch?v=IYn5KlbEIG4)\n\t2. Start pickle business from home. [<Guide>](https://www.youtube.com/watch?v=MzP5NEzdlow)"
+    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\n\t1. Start papad business from home. [<Guide>](https://www.youtube.com/watch?v=IYn5KlbEIG4)\n\n\t2. Start pickle business from home. [<Guide>](https://www.youtube.com/watch?v=MzP5NEzdlow)"
 
   utter_food_shop_yes:
-    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\t1. Start a juice and coconut shop. [<Guide>](https://www.youtube.com/watch?v=_TbMxX9qxz8)\n\t2. Start a tea shop. [<Guide>](https://www.youtube.com/watch?v=sRSVfu6WigI)\n\t3. Start a Kirana shop or Petty shop. [<Guide>](https://www.youtube.com/watch?v=k4ktCcQKbnI)"
+    - text: "Great! Here are some business ideas with recommended YouTube Guides:\n\n\t1. Start a juice and coconut shop. [<Guide>](https://www.youtube.com/watch?v=_TbMxX9qxz8)\n\n\t2. Start a tea shop. [<Guide>](https://www.youtube.com/watch?v=sRSVfu6WigI)\n\n\t3. Start a Kirana shop or Petty shop. [<Guide>](https://www.youtube.com/watch?v=k4ktCcQKbnI)"
 
   utter_cheer_up:
     - text: "Here is something to cheer you up:"
@@ -201,7 +201,7 @@ responses:
     - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Thanks for chatting with us. Have a great day!\n\n You can provide us your valuable feedback at our [Official Website](https://www.buzzwomen.org/contact)\n\nDon't forget - A financially independent woman has the ability to live life on her own terms :)\n\nPress \"Chat Again\" to restart conversation."
+    - text: "Thanks for chatting with us. Have a great day!\n\nYou can provide us your valuable feedback at our [Official Website](https://www.buzzwomen.org/contact)\n\nDon't forget - A financially independent woman has the ability to live life on her own terms :)\n\nPress \"Chat Again\" to restart conversation."
       buttons:
         - title: "Chat Again"
           payload: "/restart"
