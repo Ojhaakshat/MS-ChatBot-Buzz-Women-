@@ -24,7 +24,7 @@ intents:
 
 responses:
   utter_greet:
-    - text: f"Welcome to Buzz Women Counselling chatbot.\n\nBuzz Women is a non-profit organisation, established in 2012 that works primarily in the domain of Gender, Business & Finance and Skill Development.\n\nReach out to us at our official links:\n[Official Website](https://www.buzzwomen.org/)\n[Facebook](https://www.facebook.com/buzzwomen/)\n[Instagram](https://www.instagram.com/buzzwomen/)\n\nWe would help you to become financially independent. How can we help?"
+    - text: "Welcome to Buzz Women Counselling chatbot.\n\nBuzz Women is a non-profit organisation, established in 2012 that works primarily in the domain of Gender, Business & Finance and Skill Development.\n\nReach out to us at our official links:\n[Official Website](https://www.buzzwomen.org/)\n[Facebook](https://www.facebook.com/buzzwomen/)\n[Instagram](https://www.instagram.com/buzzwomen/)\n\nWe would help you to become financially independent. How can we help?"
       buttons:
         - title: "Need course of action for startup idea."
           payload: "/show_interest_start_up"
